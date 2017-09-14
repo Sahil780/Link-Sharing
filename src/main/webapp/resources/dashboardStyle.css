@@ -1,0 +1,156 @@
+#headerstyle
+{
+border: 2px solid black; 
+border-radius:5px;
+height: 50px;
+padding-top: 13px;
+float: left;
+
+}
+#link
+{
+	color: blue;
+	text-decoration: underline;
+}
+#search
+{
+	float: right; border: 1px solid black;border-radius:8px;padding: auto;
+
+
+}
+#searchtopicicon
+{
+	font-size: 15px;
+	float: right;
+	margin-right: 250px;
+}
+.dropdown {
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px 6px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#searchtopic:focus {
+	outline: none;
+}
+#userinfo
+{
+	border: 2px solid black; 
+border-radius:15px;
+height: 120px;
+padding-top: 13px;
+margin-left: 25px;
+}
+#catagory
+{
+	border: 1px solid black;
+	border-radius: 3px;
+}
+a:link
+{
+color:black;
+}
+.headericon
+{
+	margin-left: -10px;
+	margin-right: 10px;
+}
+.ui-front { z-index:10000;
+background-color: darkturquoise;
+}
+.inboxLinks{
+	font-size: 12px;
+	padding-right: 5px;
+}
+.list
+{
+	color:#44A2A4;
+	float:left;
+	text-decoration:none;
+	list-style-type:none;
+	font-family:"Verdana"
+}
+.formoutersection
+{
+	margin:15px auto;
+	border:2px solid #BCC3CB;
+	padding:0;
+	border-radius:5px;
+
+}
+.section1
+{
+	height:8vh;
+	border-radius: 5px 5px 0 0;
+	border:2px solid #BCC3CB;
+	background-color:#BCC3CB;
+	padding:0;
+	margin: 0;
+}
+.section2
+{
+	border:2px solid #BCC3CB;
+	border-top-width:0px;
+	border-bottom-width:2px;
+	border-right-width:0px;
+	border-left-width:0px;
+	font-size:13px;
+	color:white;
+	font-family:"Verdana"
+}
+.section3
+{
+	height:8vh;
+	background-color:#EEEFF2;
+}
+.button
+{
+	margin:7px 0px;
+	background-color:#34BC99;
+	padding:10px;
+	font-size:15px;
+	text-align:center;
+	border:none;
+	border-radius:7px;
+	color:white;
+	font-family:"Verdana";
+}
+.section2para
+{
+	margin:10px 0 2px 0;
+	float: left;
+	color: white;
+}
+.sectionin1
+{
+	margin:10px auto;
+	border:2px solid #BCC3CB;
+	border-radius: 5px;
+	font-family:"Verdana";
+	color:black;
+}
+span.spanicons{
+	margin-right: 5px;
+	font-size:20px;
+	margin-top:7px;
+}
+.rowheader{
+	margin: 0;
+}
+.selectpicker{
+	padding-left: 3px;
+	padding-right: 3px;
+}

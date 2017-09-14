@@ -1,0 +1,38 @@
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 5px 5px; white-space: nowrap; overflow: hidden; font-size:22px}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #3399FF; }
+#form-country_v2 .typeahead__list {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.project-jquerytypeahead.page-demo .typeahead__list li a {
+    position: relative;
+}
+
+.project-jquerytypeahead.page-demo .result-container {
+    position: absolute;
+    color: #777;
+    top: -1.5em;
+}
+
+.project-jquerytypeahead.page-demo .typeahead-search li a .flag-chart {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+}
+
+.flag-chart {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 30px;
+    height: 20px;
+    line-height: 14px;
+    vertical-align: text-top;
+    display: inline-block;
+    margin: -1px 3px -1px 0;
+    background:url(/resources/defaultpic.png) no-repeat scroll left top transparent;
+}
